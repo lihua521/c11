@@ -2,7 +2,19 @@
 
 char arr[1024];
 int index = 0;
-
+int isMingan(char x){
+    int count = 0;
+    for(int i=0;i<index;i++){
+        if(x == arr[i]){
+            count++;
+        }
+    }
+    if(count == 0){
+        return 0;
+    }else{
+        return 1;
+    }
+}
 int main()
 {
 
