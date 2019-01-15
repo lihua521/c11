@@ -63,8 +63,7 @@ int main()
         if (code == 3)
         {
             printf("minganzifuwei:\n");
-
-            for (int i = 0; i < index; i++)
+            for(int i = 0; i < index; i++)
             {
                 printf("di%dgeminganzifu:%c\n", i + 1, arr[i]);
             }
@@ -74,10 +73,10 @@ int main()
             scanf("%c", &x);
             scanf("%c", &x);
         }
-    }
-    if (code == 4)
+    
+     if(code == 4)
     {
-        printf("qingshuruyiduanwenzi\n");
+        printf("tihuan\n");
         char neirong[1024];
         scanf("%s", neirong);
 
@@ -98,15 +97,15 @@ int main()
 
         printf("\n");
 
-        printf("替换完成，点击回车继续\n");
+        printf("dianjihuiche\n");
         char x;
-        scanf("%c", &x);
+        scanf("%c",&x);
         scanf("%c", &x);
     }
-    if (code == 5)
+    if(code == 5)
     {
         printf("tuichu\n");
-        break;
+       break;
     }
 }
 
