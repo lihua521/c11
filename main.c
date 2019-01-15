@@ -50,14 +50,26 @@ int main()
         }
         if (code == 3)
         {
-        }
-        if (code == 4)
-        {
-        }
-        if (code == 5)
-        {
+            printf("minganzifuwei:\n");
+
+            for (int i = 0; i < index; i++)
+            {
+                printf("di%dgeminganzifu:%c\n", i + 1, arr[i]);
+            }
+
+            printf("shanchuchenggong\n");
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
     }
+    if (code == 4)
+    {
+    }
+    if (code == 5)
+    {
+    }
+}
 
-    return 0;
+return 0;
 }
